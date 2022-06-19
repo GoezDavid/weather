@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App météo</title>
+    <link rel="stylesheet" href="/index.e56b1ce9.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container bg-gradient-to-r from-[#c2c2c2] to-[#858585]">
+        <header>
+       
+            <nav class="navBar"> 
+                <a href="" class="nav-branding">EAFC-WEATHER-WIDGET</a>
+                <ul class="nav-menu">
+                    <li class="naw-item">
+                        <a href="" class="nav-link">Accueil</a>
+                    </li>
+
+                    <li class="naw-item">
+                        <a href="" class="nav-link">Liste des favoris</a>
+                    </li>
+
+                    <li class="naw-item">
+                        <a href="" class="nav-link">Paramètres</a>
+                    </li>
+
+                    <li class="naw-item">
+                        <a href="" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+
+                </div>
+
+            </nav>
+            <div class="flex justify center ">
+            <form method="get">
+            <select class="px-20 m-5 bg-[#858585]" name="ville" placeholder="selectionner la ville"> selectionner votre ville
+                <optgroup label="ville de la province de liège">
+                    <option value="liege" selected=""> Liège</option>   
+                <option value="rocourt"> Rocourt</option>
+            </optgroup>
+        </select>
+        </form>
+    </div>
+ 
+        </header>
+        <main>
+            <section>
+                <h3 class="titleRubriques">Aujourd'hui</h3>
+                <div class="mainCard">
+                    <p class="text-right p-3">
+                    <i class="fa-regular fa-star"></i>
+                    </p>
+                    <h1 class="text-3xl font-bold pl-3">Liège</h1>
+                    <h3 class="pt-1 pl-3">Mardi, 8 Février, 13h00</h3>
+                    <div class="flex flex-row items-center justify-around">
+                    <p class="text-3xl text-center">6° <br><span>pluvieu</span></p>
+                    <img src="/rain_weather_icon_151998.f6e779ce.png" alt="icone pluie" class="w-40 m-0">
+                </div>
+                </div>
+            </section>
+
+            <section>
+                <h3 class="titleRubriques ">Toute les 3 heures</h3>
+                <ul class="carousel-items">
+                    <li class="carousel-item">
+                        <div class="card pb-3">
+                            <h2 class="text-center text-3xl p-5">15h00</h2>
+                            <div class="flex flex-row items-center justify-around">
+                            <p class="text-3xl">9° </p>
+                            <img src="/rain_weather_icon_151998.f6e779ce.png" alt="icone pluie" class="w-20 m-0">
+                            </div>
+                           
+                        </div>
+                    </li>
+                    
+                    <li class="carousel-item">
+                        <div class="card pb-3">
+                            <h2 class="text-center text-3xl p-5">18h00</h2>
+                            <div class="flex flex-row items-center justify-around">
+                            <p class="text-3xl">9° </p>
+                            <img src="/rain_weather_icon_151998.f6e779ce.png" alt="icone pluie" class="w-20 m-0">
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="carousel-item">
+                        <div class="card pb-3">
+                            <h2 class="text-center text-3xl p-5">21h00</h2>
+                            <div class="flex flex-row items-center justify-around">
+                            <p class="text-3xl">8° </p>
+                            <img src="/rain_weather_icon_151998.f6e779ce.png" alt="icone pluie" class="w-20 m-0">
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="carousel-item">
+                        <div class="card pb-3">
+                            <h2 class="text-center text-3xl p-5">00h00</h2>
+                            <div class="flex flex-row items-center justify-around">
+                            <p class="text-3xl">8° </p>
+                            <img src="/rain_weather_icon_151998.f6e779ce.png" alt="icone pluie" class="w-20 m-0">
+                        </div>
+                    </div></li>
+
+
+
+                    
+
+                </ul>
+                <div>
+
+            </div></section>
+
+            <h3 class="titleRubriques">Les 7 prochains jours</h3>
+            <ul class="carousel-items">
+
+                <li class="carousel-item">
+                    <div class="card pb-3">
+                        <h2 class="text-center text-3xl p-5">Mercredi</h2>
+                        <h3 class="text-center">09 Fév.</h3>
+                        <div class="flex flex-row items-center justify-around">
+                        <img src="/soloil%20nuageux.faa121ee.png" alt="icone soleil nuageux" class="w-20 m-0">
+                        <p class="text-3xl">7°/10° </p>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="carousel-item">
+                    <div class="card pb-3">
+                        <h2 class="text-center text-3xl p-5">Jeudi</h2>
+                        <h3 class="text-center">10 Fév. </h3>
+                        <div class="flex flex-row items-center justify-around">
+                        <img src="/rain_weather_icon_151998.f6e779ce.png" alt="icone pluie" class="w-20 m-0">
+                        <p class="text-3xl">3°/8° </p>
+                    </div>
+                    </div>
+                </li>
+
+                <li class="carousel-item">
+                    <div class="card pb-3">
+                        <h2 class="text-center text-3xl p-5">Vendredi</h2>
+                        <h3 class="text-center">11 Fév.</h3>
+                        <div class="flex flex-row items-center justify-around">
+                        <img src="/soloil%20nuageux.faa121ee.png" alt="icone soleil nuageux" class="w-20 m-0">
+                        <p class="text-3xl">1°/6° </p>
+                        </div>
+                        
+                    </div>
+                </li>
+
+    
+
+                <li class="carousel-item">
+                    <div class="card pb-3">
+                        <h2 class="text-center text-3xl p-5">Samedi</h2>
+                        <h3 class="text-center">12 Fév.</h3>
+                        <div class="flex flex-row items-center justify-around">
+                        <img src="/soloil%20nuageux.faa121ee.png" alt="icone soleil nuageux" class="w-20 m-0">
+                        <p class="text-3xl">2°/6° </p>
+                        </div>
+                        
+                    </div>
+                </li>
+
+
+                <li class="carousel-item">
+                    <div class="card pb-3">
+                        <h2 class="text-center text-3xl p-5">Dimanche</h2>
+                        <h3 class="text-center">13 Fév. </h3>
+                        <div class="flex flex-row items-center justify-around">
+                        <img src="/rain_weather_icon_151998.f6e779ce.png" alt="icone pluie" class="w-20 m-0">
+                        <p class="text-3xl">0°/6° </p>
+                    </div>
+                    </div>
+                </li>
+
+                <li class="carousel-item">
+                    <div class="card pb-3">
+                        <h2 class="text-center text-3xl p-5">Lundi</h2>
+                        <h3 class="text-center">14 Fév. </h3>
+                        <div class="flex flex-row items-center justify-around">
+                        <img src="/rain_weather_icon_151998.f6e779ce.png" alt="icone pluie" class="w-20 m-0">
+                        <p class="text-3xl">4°/7° </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="carousel-item">
+                    <div class="card pb-3">
+                        <h2 class="text-center text-3xl p-5">Mardi</h2>
+                        <h3 class="text-center">14 Fév. </h3>
+                        <div class="flex flex-row items-center justify-around">
+                        <img src="/rain_weather_icon_151998.f6e779ce.png" alt="icone pluie" class="w-20 m-0">
+                        <p class="text-3xl">2°/7° </p>
+                    </div>
+                    </div>
+                </li>
+            </ul>
+            <div>
+
+        
+        </div></main>
+
+    </div>
+ 
+    
+    <script src="/index.975ef6c8.js" defer=""></script>
+    <script src="https://kit.fontawesome.com/63cd2509c4.js" crossorigin="anonymous"></script>
+</body>
+</html>
