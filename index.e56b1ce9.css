@@ -493,18 +493,14 @@ i {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-cyan-500 {
-  --tw-gradient-from: #06b6d4;
-  --tw-gradient-to: #06b6d400;
+.from-amber-300 {
+  --tw-gradient-from: #fcd34d;
+  --tw-gradient-to: #fcd34d00;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .to-\[\#858585\] {
   --tw-gradient-to: #858585;
-}
-
-.to-blue-500 {
-  --tw-gradient-to: #3b82f6;
 }
 
 .p-3 {
